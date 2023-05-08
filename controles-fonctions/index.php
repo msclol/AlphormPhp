@@ -8,5 +8,9 @@
 </head>
 <body>
     <h1>Mon titre</h1>
+    <?php 
+        $phoneNumber = 12;
+        var_dump($phoneNumber);
+    ?>
 </body>
 </html>
