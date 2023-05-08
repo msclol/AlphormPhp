@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;800;900&family=Roboto:wght@300&display=swap");
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   background-image: url("images/fd-ecran.jpg");
   background-repeat: no-repeat;
@@ -40,8 +41,24 @@ input[type=submit] {
   cursor: pointer;
   box-shadow: 5px 5px 5px #555;
   outline: none;
+  transition: ease 0.5s;
+}
+
+input[type=submit]:hover {
+  background-color: orange;
+  color: #000;
+  transform: translateY(-7px);
 }
 
 img {
   width: 50%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: orangered;
+}
+
+ul {
+  text-align: left;
 }/*# sourceMappingURL=styles.css.map */
